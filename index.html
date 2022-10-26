@@ -63,6 +63,9 @@
             let todoList = document.querySelector("#todo-list");
             todoList.appendChild(newTask);
 
+
+            todoList.remove(newTask);
+
             // 3. Clear #task-input
             input.value = "";
         })
